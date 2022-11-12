@@ -63,7 +63,7 @@ function displayCards(){
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">${c.place}</h5>
                             <p class="card-text">${c.description}</p>
                             <p class="card-text">
                                 <button class="btn btn-danger to-delete">Delete</button>
